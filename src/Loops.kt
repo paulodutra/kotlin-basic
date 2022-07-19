@@ -17,4 +17,19 @@ fun main(args: Array<String>) {
         println(item.key)
         println(item.value)
     }
+    //val like constant
+    //var like variable
+    var mutableVar: Int = 0
+    while (mutableVar < 10) {
+        println(mutableVar)
+        mutableVar++
+    }
+
+    var myNumber: Int = 0
+
+    do {
+        myNumber++
+        println(myNumber)
+    } while (myNumber <=10)
+
 }
